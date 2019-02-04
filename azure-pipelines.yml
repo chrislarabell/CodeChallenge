@@ -7,10 +7,10 @@ trigger:
 - master
 
 pool:
-  vmImage: 'Ubuntu-16.04'
+  vmImage: 'win2016-vs2017'
 
 variables:
-  imageName: 'CodeChallenge:$(build.buildId)'
+  imageName: 'code-challenge:$(build.buildId)'
 
 steps:
 - script: docker build -f Dockerfile -t $(imageName) .
