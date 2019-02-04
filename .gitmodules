@@ -1,0 +1,3 @@
+[submodule "AutoMapper.Extensions.Microsoft.DependencyInjection"]
+	path = AutoMapper.Extensions.Microsoft.DependencyInjection
+	url = https://github.com/chrislarabell/AutoMapper.Extensions.Microsoft.DependencyInjection.git
