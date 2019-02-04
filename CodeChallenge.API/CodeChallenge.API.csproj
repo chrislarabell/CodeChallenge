@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\AutoMapper.Extensions.Microsoft.DependencyInjection\src\AutoMapper.Extensions.Microsoft.DependencyInjection\AutoMapper.Extensions.Microsoft.DependencyInjection.csproj" />
     <ProjectReference Include="..\CodeChallenge.Core\CodeChallenge.Core.csproj" />
     <ProjectReference Include="..\CodeChallenge.Infrastructure\CodeChallenge.Infrastructure.csproj" />
   </ItemGroup>
